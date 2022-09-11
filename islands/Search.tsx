@@ -20,7 +20,7 @@ export default function Search() {
   return (
     <div class={tw`w-full flex  justify-center my-10`}>
       <div
-        class={tw` text-black  h-10 w-6/12  items-center justify-center bg-white flex px-1 rounded-md`}
+        class={tw` text-black  h-10 sm:w-full md:w-6/12  items-center justify-center bg-white flex px-1 rounded-md`}
       >
         <input
           value={searchText}

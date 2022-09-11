@@ -63,7 +63,6 @@ export default function SearchResults({ data }: PageProps<MovieData>) {
     <body class={tw`p-4 mx-auto w-screen min-h-screen bg-black text-white`}>
       <div class={tw`w-full flex flex-col p-5 md:p-10 `}>
         <div class={tw`text-4xl justify-center items-center flex`}>
-          {/* <img src="/popcorn.svg" class={tw`w-10 h-10 m-1`}/> */}
           {data.Title} ({data.Year})
         </div>
         <div class={tw`w-full flex flex-wrap flex-column my-5 items-end`}>
