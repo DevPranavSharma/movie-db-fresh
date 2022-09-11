@@ -6,7 +6,7 @@ import Search from "../islands/Search.tsx";
 
 export default function Home() {
   return (
-    <div class={tw`p-4 mx-auto w-screen h-screen bg-black text-white`}>
+    <body class={tw`p-4 mx-auto w-screen h-screen bg-black text-white`}>
       <div class={tw`w-full flex flex-col p-10 `}>
         <div class={tw`text-4xl justify-center items-center flex`}>
           <img src="/popcorn.svg" class={tw`w-10 h-10 m-1`} />
@@ -17,6 +17,6 @@ export default function Home() {
         </p>
         <Search />
       </div>
-    </div>
+    </body>
   );
 }

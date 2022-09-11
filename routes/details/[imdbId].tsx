@@ -60,7 +60,7 @@ export default function SearchResults({ data }: PageProps<MovieData>) {
     );
   }
   return (
-    <div class={tw`p-4 mx-auto w-screen min-h-screen bg-black text-white`}>
+    <body class={tw`p-4 mx-auto w-screen min-h-screen bg-black text-white`}>
       <div class={tw`w-full flex flex-col p-5 md:p-10 `}>
         <div class={tw`text-4xl justify-center items-center flex`}>
           {/* <img src="/popcorn.svg" class={tw`w-10 h-10 m-1`}/> */}
@@ -91,7 +91,6 @@ export default function SearchResults({ data }: PageProps<MovieData>) {
         </div>
         <div>{data.Plot}</div>
       </div>
-      {/* <Counter start={3} /> */}
-    </div>
+    </body>
   );
 }

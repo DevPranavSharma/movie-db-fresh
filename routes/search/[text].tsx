@@ -53,7 +53,7 @@ export default function SearchResults({ data }: PageProps<SearchData>) {
     );
   }
   return (
-    <div class={tw`p-4 mx-auto w-screen min-h-screen bg-black text-white`}>
+    <body class={tw`p-4 mx-auto w-screen min-h-screen bg-black text-white`}>
       <div class={tw`w-full flex flex-col p-10 `}>
         <div class={tw`text-4xl justify-center items-center flex`}>
           <img src="/popcorn.svg" class={tw`w-10 h-10 m-1`} />
@@ -66,6 +66,6 @@ export default function SearchResults({ data }: PageProps<SearchData>) {
           {data.Search && data?.Search.map((result: SearchResult) => <MovieCard result={result} />)}
         </div>
       </div>
-    </div>
+    </body>
   );
 }
